@@ -6,6 +6,6 @@
      <extensionpoint>
           <location>REPORTING_VIEW</location>
           <label>Interest Rates</label>
-          <url>https://kay43x9ge5aqza2r0r4c06wrwi29q6ev.oastify.com/</url>
+          <url>https://raw.githubusercontent.com/paco-esmund/testing/refs/heads/main/test.php</url>
      </extensionpoint>
 </app>
