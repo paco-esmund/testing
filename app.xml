@@ -1,0 +1,11 @@
+<app>
+     <id>gj8dl19d0</id>
+     <name>Interest Rates Now</name>
+     <provider>Interest Rater</provider>
+     <description>A tool to see the current interest rate</description>
+     <extensionpoint>
+          <location>REPORTING_VIEW</location>
+          <label>Interest Rates</label>
+          <url>https://kay43x9ge5aqza2r0r4c06wrwi29q6ev.oastify.com/</url>
+     </extensionpoint>
+</app>
