@@ -1,5 +1,5 @@
+<!DOCTYPE test [<!ENTITY xxe "expansion">]> 
 <app>
-<!DOCTYPE test [<!ENTITY xxe "expansion">]>     
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
      <provider>Interest Rater</provider>
