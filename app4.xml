@@ -1,5 +1,4 @@
-<!DOCTYPE test [<!ENTITY desc "test XXE">]>
-<app>
+<!DOCTYPE test [<!ENTITY desc SYSTEM "file:///etc/passwd">]><app>
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
      <provider>Interest Rater</provider>
