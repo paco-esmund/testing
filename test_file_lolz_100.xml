@@ -1,6 +1,7 @@
 <!DOCTYPE lolz [
  <!ENTITY lol "lol">
  <!ENTITY lola "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;">
+ <!ENTITY lolb "&lola;&lola;&lola;&lola;&lola;&lola;&lola;&lola;&lola;&lola;">
 ]>
 <app>
      <id>gj8dl19d0</id>
